@@ -4,14 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
@@ -26,10 +24,7 @@ public class Course {
 	@Column(name = "name_course", length = 50, nullable = false)
 	private String name;
 	
-	@ManyToMany(fetch = FetchType.EAGER)
-	@JoinTable(name = "students_course",
-	joinColumns = @JoinColumn(name = "course_fk"),
-	inverseJoinColumns = @JoinColumn(name = "student_fk"))
+	@ManyToMany(mappedBy = "courses", cascade = CascadeType.REMOVE)
 	private List<Student> students;
 	
 	@Column(name = "score_course")

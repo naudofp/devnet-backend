@@ -7,6 +7,8 @@ import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -20,7 +22,12 @@ public class Student extends User{
 	private String name;
 	@Transient
 	private Integer score;
-	@ManyToMany(mappedBy = "students", cascade = CascadeType.PERSIST)
+	
+	
+	@ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.REFRESH})
+	@JoinTable(name = "courses_student",
+	joinColumns = @JoinColumn(name = "course_fk"),
+	inverseJoinColumns = @JoinColumn(name = "student_fk"))
 	private List<Course> courses =new ArrayList<>();
 	
 	
