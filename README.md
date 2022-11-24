@@ -4,16 +4,16 @@
 ## Sobre o Projeto
 
 Inicialmente a ideia de desenvolver esse projeto foi quando iniciei meus estudos com Flutter e precisava de algo para por em prática. 
-Então para somar em meu portifólio, resolvi criar esse Projeto, um tanto quanto simples, mas aonde consegui 
+Então para somar em meu portifólio, resolvi criar esse projeto, um tanto quanto simples, mas aonde consegui 
 absorver e aprender muitas coisas.
 
 ## Funcionalidades
 
-O Sistema consiste em uma plataforma em que o desenvolvedores podem reunir seus cursos e conhecimentos,
+O Sistema consiste em uma plataforma em que os desenvolvedores podem reunir seus cursos e conhecimentos,
 assim então elevando o seu 'Score', o Score é uma quantia de pontos que cada curso possue, quanto mais cursos o 
 dev possuir, mais auto será o seu Score.
 
-O dev pode pesquisar e fazer amizade com outros desenvolvedores, podendo ver seus conhecimentos e score. 
+O dev pode pesquisar e fazer amizades com outros desenvolvedores, podendo ver seus cursos e score. 
 
 ### Modelo Conceitual
 
@@ -30,7 +30,6 @@ O dev pode pesquisar e fazer amizade com outros desenvolvedores, podendo ver seu
 ## Front End
 
 - Dart
-
 - Flutter
 
 # Layout - SchoolTech;
