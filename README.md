@@ -16,8 +16,7 @@ dev possuir, mais auto será o seu Score.
 O dev pode pesquisar e fazer amizades com outros desenvolvedores, podendo ver seus cursos e score. 
 
 ### Modelo Conceitual
-
-![modelo-conceitual](https://user-images.githubusercontent.com/106287877/203152897-71804ec5-1dbb-416a-8151-19f4765417ca.png)
+![image](https://user-images.githubusercontent.com/106287877/204617758-34fda220-4cdd-42d6-a3b0-5b31908a798b.png)
 
 # Tecnologias Utilizadas
 ## Back End
