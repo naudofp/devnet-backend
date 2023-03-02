@@ -3,8 +3,8 @@
 
 ## Sobre o Projeto
 
-Inicialmente a ideia de desenvolver esse projeto foi quando iniciei meus estudos com Flutter e precisava de algo para por em prática. 
-Então para somar em meu portifólio, resolvi criar esse projeto, um tanto quanto simples, mas aonde consegui 
+Inicialmente a ideia de desenvolver esse projeto foi quando iniciei meus estudos com Flutter, e precisava de algo para por em prática. 
+Então para somar em meu portifólio, resolvi criar esse projeto, simples, mas aonde consegui 
 absorver e aprender muitas coisas.
 
 ## Funcionalidades
